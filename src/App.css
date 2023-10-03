@@ -1,0 +1,60 @@
+:root{
+  font-family: 'Roboto', sans-serif;
+}
+
+.clock {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .setters {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+  }
+  button:hover{
+    background-color: rgba(249, 78, 78, 0.897);
+  }
+
+  button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #58ed71;
+    color: white;
+    cursor: pointer;
+  }
+  h1{
+    
+    text-align: center;
+    padding-top: 10%;
+  }
+  h4 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  span {
+    font-size: 24px;
+  }
+
+  .display {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(251, 248, 243);
+    border-radius: 8px;
+    padding: 20px 205px 20px 205px;
+
+  }
+.break,.session {
+  padding: 20px;
+  background-color: rgb(251, 248, 243);
+  border-radius: 8px;
+}
